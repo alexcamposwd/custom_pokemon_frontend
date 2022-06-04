@@ -1,0 +1,21 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "reportFilename": "report",
+    "charts": true,
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "video": false,
+  "env": {
+    "URL_DEL": "http://localhost:5000/api/v1/pokedel/",
+    "URL_GET": "http://localhost:5000/api/v1/all",
+    "URL_POST": "http://localhost:5000/api/v1/new",
+    "URL_POKEAPI": "https:/pokeapi.co/api/v2/pokemon/1",
+    "URL_POKENEW": "http://localhost:5000/api/v1/all",
+    "APP_URL": "http://localhost:3000"
+  }
+}
