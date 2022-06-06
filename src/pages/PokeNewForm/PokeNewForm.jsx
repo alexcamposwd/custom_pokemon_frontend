@@ -36,6 +36,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-name-pokenew'
                 name='name'
+                placeholder="Enter Pokemon's name"
                 {...register('name', { required: 'Name is Required' })}
                 onKeyUp={() => {
                   trigger('name')
@@ -51,6 +52,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-url-pokenew'
                 name='url'
+                placeholder="Enter the url of your Pokemon's image"
                 {...register('url', { required: 'Image is Required' })}
                 onKeyUp={() => {
                   trigger('url')
@@ -70,6 +72,7 @@ function PokeForm() {
                     type='text'
                     data-cy='inp-type1-pokenew'
                     name='type1'
+                    placeholder="Enter your Pokemon's type 1"
                     {...register('type1', { required: 'Type is Required' })}
                     onKeyUp={() => {
                       trigger('type1')
@@ -91,6 +94,7 @@ function PokeForm() {
                     type='text'
                     data-cy='inp-type2-pokenew'
                     name='type2'
+                    placeholder="Enter your Pokemon's type 2"
                     {...register('type2', { required: 'Type is Required' })}
                     onKeyUp={() => {
                       trigger('type2')
@@ -264,6 +268,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-title1-pokenew'
                 name='title1'
+                placeholder="Enter the title of your Pokemon's skill"
                 {...register('title1', { required: 'Title is Required' })}
                 onKeyUp={() => {
                   trigger('title1')
@@ -281,6 +286,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-descr1-pokenew'
                 name='description1'
+                placeholder="Enter your Pokémon's Ability Description"
                 rows={4}
                 {...register('description1', {
                   required: 'Description is Required',
@@ -301,6 +307,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-title2-pokenew'
                 name='title2'
+                placeholder="Enter the title of your Pokemon's skill"
                 {...register('title2', { required: 'Title is Required' })}
                 onKeyUp={() => {
                   trigger('title2')
@@ -318,6 +325,7 @@ function PokeForm() {
                 type='text'
                 data-cy='inp-descr2-pokenew'
                 name='description2'
+                placeholder="Enter your Pokémon's Ability Description"
                 rows={4}
                 {...register('description2', {
                   required: 'Description is Required',

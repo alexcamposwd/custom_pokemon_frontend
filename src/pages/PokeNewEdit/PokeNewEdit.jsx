@@ -118,7 +118,7 @@ function PokeEdit() {
                       type='text'
                       data-cy='inp-hp-pokeedit'
                       name='hp'
-                      {...register('hp', {
+                      {...register('stats.hp', {
                         required: 'HP is Required',
                         pattern: {
                           value: /^[0-9]*$/,
