@@ -31,6 +31,8 @@ A aplicação é separada em duas atividades:
 - Deploy Heroku e Netlify.
 - O projeto foi editado no Visual Studio Code.
 
+![Mockup_Pokenew_v2-1](https://user-images.githubusercontent.com/81717487/177430289-25e89ba1-0d5e-4c25-af14-bed2917f46bf.jpg)
+
 ## [Demo](https://custom-pokemon.herokuapp.com/)
 
 ### License/Licença do Projeto
