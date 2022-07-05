@@ -2,7 +2,7 @@
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/alexcamposwd/custom_pokemon_frontend/blob/main/LICENSE)
 
-### Estudo de caso e Prática pessoal.
+### Estudo de caso e prática.
 
 O estudo é baseado na execução de Pokedex e um Custom Pokémon utilizando React.
 Docker, React.js, Typescript, Node.js, MongoDB, Cypress, etc.
